@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Poppins, sans-serif;
+    background-color: #eee;
+}
+
+.App {
+    width: 570px;
+    border-radius: 9px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.1);   
+}
+
+nav img {
+    margin-left: 20px;
+}
+
+.hero {
+    width: 550px;
+    margin: 40px 0;
+    padding: 0 30px;
+}
+
+.hero img {
+    display: block;
+    width: 400px;
+    height: 232px;
+    margin: 0 auto;
+}
+
+.hero--header {
+    width: 347px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    width: 320px;
+    line-height: 110%;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x:auto;
+    padding: 14px 10px;
+}
+
+.card {
+    width: 180px;
+}
+
+.card--banner {
+    position: relative;
+}
+
+.card--banner img {
+    width: 178px;
+    height: 235px;
+    border-radius: 8px;
+}
+
+.card--banner span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card--social {
+    display: flex;
+    align-items: center;
+}
+
+.card--info p{
+    margin: 2px 0;
+}
+
+.card--rating {
+    display: flex;
+    align-items: center;
+}
+
+.card--rating img {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+}
+
+.card--rating span {
+    font-weight: bold;
+}
+
+.card--title {
+    font-size: 14px;
+    line-height: 110%;
+    margin: 0;
+}
+
+.card--pricing span {
+    font-weight: bold;
+    font-size: 14px;
+}
