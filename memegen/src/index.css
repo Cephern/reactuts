@@ -1,0 +1,80 @@
+body {
+  font-family: Karla, sans-serif;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  width: 550px;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.logo img {
+  width: 31px;
+  height: 26px;
+  padding: 7px;
+}
+
+.logo span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.1rem;
+  color: #fff;
+}
+
+form {
+  margin: 36px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.inputs input {
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  box-sizing: border-box;
+  font-family: Karla, sans-serif;
+  width: 45%;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.05em;
+  font-family: Karla, sans-serif;
+  cursor: pointer;
+}
